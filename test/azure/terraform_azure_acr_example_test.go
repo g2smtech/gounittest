@@ -9,12 +9,11 @@ package test
 import (
 	"strings"
 
-	"testing"
-
 	"github.com/g2smtech/gounittest/modules/azure"
 	"github.com/g2smtech/gounittest/modules/random"
 	"github.com/g2smtech/gounittest/modules/terraform"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestTerraformAzureACRExample(t *testing.T) {
